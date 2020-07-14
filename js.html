@@ -1,0 +1,15 @@
+<html>
+<body>
+<h1>demo current date</h1>
+<p id="p1"></p>
+<p id="p2"></p>
+<script>
+var today=new Date();
+var date=today.getFullYear()+ '-' + (today.getMonth()+1) + '-' + today.getDate();
+var time=today.getHours() + ":" +today.getMinutes() + ":" + today.getSeconds();
+var datetime=date + '' + time;
+document.getElementById("p1").innerHTML=datetime;
+</script>
+</body>
+</html>
+
